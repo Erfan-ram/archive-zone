@@ -1,0 +1,10 @@
+[init]
+	defaultBranch = main
+[user]
+	email = Erfanramezany245@gmail.com
+	name = Erfan Ramezani
+[core]
+	editor = code --wait
+	autocrlf = input
+[safe]
+	directory = *
