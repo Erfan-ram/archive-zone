@@ -1,0 +1,4 @@
+hf download facebook/sam3.1 sam3.1_multiplex.pt --local-dir .
+
+# another repo can download without any access request:
+https://www.modelscope.cn/models/facebook/sam3.1/files
