@@ -1,0 +1,9 @@
+MAMBA_NO_LOW_SPEED_LIMIT=1 micromamba env create -f cuda-torch.yaml                                                                 
+
+
+micromamba env config vars
+micromamba env config vars set LD_LIBRARY_PATH=/home/markaz-ai/y/envs/khalifa/lib/python3.11/site-packages/tensorrt_libs -n khalifa
+
+micromamba config append channels conda-forge
+micromamba config set channel_priority strict
+
